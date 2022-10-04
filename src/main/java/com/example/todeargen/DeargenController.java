@@ -1,7 +1,6 @@
 package com.example.todeargen;
 
 
-import lombok.RequiredArgsConstructor;
 import org.python.util.PythonInterpreter;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DeargenController {
 
     private static PythonInterpreter interpreter;
-    
+
     @GetMapping("/result")
     public void lotto_numbers() {
         interpreter = new PythonInterpreter();
