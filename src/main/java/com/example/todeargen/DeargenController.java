@@ -15,8 +15,4 @@ public class DeargenController {
         interpreter = new PythonInterpreter();
         interpreter.execfile("src/main/python/lotto.py");
     }
-    @GetMapping("/api")
-    public String print_hello() {
-        return "hello";
-    }
 }
