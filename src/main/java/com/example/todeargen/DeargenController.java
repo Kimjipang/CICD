@@ -15,4 +15,5 @@ public class DeargenController {
         interpreter = new PythonInterpreter();
         interpreter.execfile("src/main/python/lotto.py");
     }
+    
 }
